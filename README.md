@@ -6,6 +6,6 @@ https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-3.1.27-wind
 
 ## Really nice ASCII art from images
 
-![Donatello][txtouput.png]
+![Donatello](https://github.com/psDevUK/Image2Text/blob/main/TxtOuput.PNG)
 
 ![Invincible][invincibleAscii.png]
