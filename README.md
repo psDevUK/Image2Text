@@ -10,4 +10,4 @@ https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-3.1.27-wind
 ![Donatello](https://github.com/psDevUK/Image2Text/blob/main/TxtOuput.PNG)
 
 ## One of my favourite comics
-![Invincible][[invincibleAscii.png](https://github.com/psDevUK/Image2Text/blob/main/invincibleAscii.PNG)]
+![Invincible](https://github.com/psDevUK/Image2Text/blob/main/invincibleAscii.PNG)
