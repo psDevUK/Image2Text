@@ -5,7 +5,9 @@ Powershell an Image into beautiful ASCII art format...more coming soon on this
 https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-3.1.27-windows-x86-installer
 
 ## Really nice ASCII art from images
-
+![Original](https://github.com/psDevUK/Image2Text/blob/main/InputPicture.png)
+## To this
 ![Donatello](https://github.com/psDevUK/Image2Text/blob/main/TxtOuput.PNG)
 
-![Invincible][invincibleAscii.png]
+## One of my favourite comics
+![Invincible][[invincibleAscii.png](https://github.com/psDevUK/Image2Text/blob/main/invincibleAscii.PNG)]
