@@ -1,0 +1,199 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TextImage</name>
+    </assembly>
+    <members>
+        <member name="T:TextImage.Enums.ImageTextFormat">
+            <summary>
+            To be added.
+            </summary>
+        </member>
+        <member name="F:TextImage.Enums.ImageTextFormat.Ascii">
+            <summary>
+            To be added.
+            </summary>
+        </member>
+        <member name="F:TextImage.Enums.ImageTextFormat.Braille">
+            <summary>
+            To be added.
+            </summary>
+        </member>
+        <member name="T:TextImage.Extensions.BitmapExtensions">
+            <summary>
+            To be added.
+            </summary>
+        </member>
+        <member name="M:TextImage.Extensions.BitmapExtensions.BytesPerPixel(System.Drawing.Bitmap)">
+            <summary>
+            To be added.
+            </summary>
+            <param name="bitmap"></param>
+            <returns></returns>
+        </member>
+        <member name="T:TextImage.ImageAscii">
+            <summary>
+            To be added.
+            </summary>
+        </member>
+        <member name="F:TextImage.ImageAscii.palette">
+            <summary>
+            To be added.
+            </summary>
+        </member>
+        <member name="M:TextImage.ImageAscii.#ctor(System.Drawing.Bitmap)">
+            <summary>
+            To be added.
+            </summary>
+            <param name="source"></param>
+        </member>
+        <member name="M:TextImage.ImageAscii.GetChar(System.Int32,System.Int32)">
+            <summary>
+            To be added.
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TextImage.ImageAscii.ToString">
+            <summary>
+            To be added.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:TextImage.ImageBraille">
+            <summary>
+            To be added.
+            </summary>
+        </member>
+        <member name="P:TextImage.ImageBraille.Threshold">
+            <summary>
+            To be added.
+            </summary>
+        </member>
+        <member name="M:TextImage.ImageBraille.#ctor(System.Drawing.Bitmap,System.Byte)">
+            <summary>
+            To be added.
+            </summary>
+            <param name="source"></param>
+            <param name="threshold"></param>
+        </member>
+        <member name="M:TextImage.ImageBraille.GetChar(System.Int32,System.Int32)">
+            <summary>
+            To be added.
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TextImage.ImageBraille.Validate">
+            <summary>
+            To be added.
+            </summary>
+        </member>
+        <member name="M:TextImage.ImageBraille.ToString">
+            <summary>
+            To be added.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:TextImage.ImageTextAbstract">
+            <summary>
+            To be added.
+            </summary>
+        </member>
+        <member name="P:TextImage.ImageTextAbstract.Source">
+            <summary>
+            To be added.
+            </summary>
+        </member>
+        <member name="M:TextImage.ImageTextAbstract.GetChar(System.Int32,System.Int32)">
+            <summary>
+            To be added.
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TextImage.ImageTextAbstract.Validate">
+            <summary>
+            To be added.
+            </summary>
+        </member>
+        <member name="M:TextImage.ImageTextAbstract.CreateText(System.Int32,System.Int32)">
+            <summary>
+            To be added.
+            </summary>
+            <param name="incX"></param>
+            <param name="incY"></param>
+            <returns></returns>
+        </member>
+        <member name="T:TextImage.ImageTextBuilder">
+            <summary>
+            To be added.
+            </summary>
+        </member>
+        <member name="M:TextImage.ImageTextBuilder.#ctor">
+            <summary>
+            To be added.
+            </summary>
+        </member>
+        <member name="M:TextImage.ImageTextBuilder.WithSource(System.Drawing.Bitmap)">
+            <summary>
+            To be added.
+            </summary>
+            <param name="source"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TextImage.ImageTextBuilder.WithSource(System.String)">
+            <summary>
+            To be added.
+            </summary>
+            <param name="fileImage"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TextImage.ImageTextBuilder.WithThreshold(System.Byte)">
+            <summary>
+            To be added.
+            </summary>
+            <param name="threshold"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TextImage.ImageTextBuilder.WithFormat(TextImage.Enums.ImageTextFormat)">
+            <summary>
+            To be added.
+            </summary>
+            <param name="format"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TextImage.ImageTextBuilder.Build">
+            <summary>
+            To be added.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TextImage.ImageTextBuilder.Dispose">
+            <summary>
+            To be added.
+            </summary>
+        </member>
+        <member name="T:TextImage.Interfaces.IImageConverter">
+            <summary>
+            To be added.
+            </summary>
+        </member>
+        <member name="M:TextImage.Interfaces.IImageConverter.GetChar(System.Int32,System.Int32)">
+            <summary>
+            To be added.
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TextImage.Interfaces.IImageConverter.Validate">
+            <summary>
+            To be added.
+            </summary>
+        </member>
+    </members>
+</doc>
